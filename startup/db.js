@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 module.exports = function () {
   mongoose
     .connect(
-      "mongodb://bicycles-server:TCyPIRRwTB5x3anHvAAz28Uercmh8WAJ5MUUbxogirDCtb7lJwBsvLXOZ2eUVhwUEApgdHv7WaWZXR8y6nV98Q==@bicycles-server.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@bicycles-server@",
+      "mongodb://server-bicycle:lLIL440lGJClK6I66z4s6QnO061TkAbyq7aVg9bUGdsnyBLNg3Kx3kTX4eP80HfMeo0nOfigo9DNvbxikULG6w==@server-bicycle.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@server-bicycle@",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
