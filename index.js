@@ -12,6 +12,7 @@ const deleteBicycle = require("./routes/delete");
 const updateBicycle = require("./routes/update");
 
 db();
+require("./startup/prod")(app);
 
 app.use(cors());
 app.use(bodyParser.json());
